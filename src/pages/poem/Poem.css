@@ -1,0 +1,13 @@
+.searchbox{
+    width: 400px;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchbox{
+      width: 100%;
+    }
+  }
