@@ -29,7 +29,7 @@ function PoemCard({ poem }) {
         
       </div>
       <div dangerouslySetInnerHTML={{ __html: poem.poem }} className='mt-4 text-left' style={{ fontSize: '1.2rem', display: `${ state }` }} />
-      <button className='btn btn-success' onclick={`window.open('whatsapp://send?text=Hey, How are you%0A Read this awesome poem from shailesh ${poem.poem}')`}> Share on Mobile </button>
+      <button className='btn btn-success' onclick={`window.open('whatsapp://send?text=Hey, How are you%0A Read this awesome poem from shailesh ')`}> Share on Mobile </button>
     </div>
   )
 }
