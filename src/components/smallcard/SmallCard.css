@@ -1,0 +1,8 @@
+.smallCard{
+    font-size:'1.1rem';
+}
+
+.smallCard:hover{
+    background-color: #A483C3;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.heading{
+    font-weight:'bold';
+    color:#9966FF;
+    font-size:5rem;
+    margin-bottom: 50px;
+    
+
+}
+.bike{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+  }
+
+  @media only screen and (max-width: 600px) {
+    .heading {
+      font-size: 3rem;
+    }
+  }
+
+ 

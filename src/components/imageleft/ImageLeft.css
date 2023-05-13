@@ -1,0 +1,12 @@
+.imageStyle{
+    width: 250px;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .imageStyle {
+      width: 100%;
+      padding: 50px;
+    }
+  }
