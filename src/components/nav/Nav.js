@@ -6,7 +6,7 @@ function Nav() {
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="/home">
             <img className="brand-logo" src={logo} />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@ function Nav() {
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link to="/" class="nav-link active" aria-current="page" >Home</Link>
+                <Link to="/home" class="nav-link active" aria-current="page" >Home</Link>
               </li>
               <li class="nav-item">
                 <Link to="/blogs" class="nav-link" >Blogs</Link>
