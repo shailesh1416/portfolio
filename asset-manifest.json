@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.00a09b20.css",
-    "main.js": "/portfolio/static/js/main.7fbfa746.js",
-    "static/media/analyst.jpg": "/portfolio/static/media/analyst.1e1ee1a7704fac3cc0eb.jpg",
+    "main.css": "/portfolio/static/css/main.1fbf26d4.css",
+    "main.js": "/portfolio/static/js/main.f3ea28ac.js",
     "static/media/travel selfie.gif": "/portfolio/static/media/travel selfie.41ebf30ac90656110c43.gif",
     "static/media/photo3.png": "/portfolio/static/media/photo3.d9771d86e00553e86484.png",
     "static/media/ocean1.jpg": "/portfolio/static/media/ocean1.28e9da040589d4ba0b75.jpg",
@@ -12,6 +11,9 @@
     "static/media/ndic.png": "/portfolio/static/media/ndic.13253647128aafe3d98d.png",
     "static/media/networking-basics.png": "/portfolio/static/media/networking-basics.e3b1c432c39371252d44.png",
     "static/media/flask.png": "/portfolio/static/media/flask.0bff972f753ed25c2feb.png",
+    "static/media/cyber security analyst.svg": "/portfolio/static/media/cyber security analyst.7f21c0c4b54c99e0c6386ba385edac10.svg",
+    "static/media/web developer.svg": "/portfolio/static/media/web developer.2d6441fabdad27242b7b28fc8a0cb226.svg",
+    "static/media/teacher.svg": "/portfolio/static/media/teacher.ffb5b974387213bbc0c36272c41a360f.svg",
     "static/media/reading.svg": "/portfolio/static/media/reading.78d9717235612fba4df6505fc3ca55c2.svg",
     "static/media/cyber.svg": "/portfolio/static/media/cyber.41ac0a88c1247e09f37423d49350d82b.svg",
     "static/media/react.png": "/portfolio/static/media/react.809fed23bcdd686de66e.png",
@@ -20,25 +22,23 @@
     "static/media/Learning-bro.svg": "/portfolio/static/media/Learning-bro.1daef69d2a11d70f959e0a3bbf683a15.svg",
     "static/media/education.png": "/portfolio/static/media/education.253a8e2f17e43713c061.png",
     "static/media/logo.png": "/portfolio/static/media/logo.4522586e77ff89ec1973.png",
-    "static/media/programming.svg": "/portfolio/static/media/programming.3e733538695d3d0d9a05c5c9e227e184.svg",
+    "static/media/programming.svg": "/portfolio/static/media/programming.87532478db89323dc190bb19890fad54.svg",
     "static/media/gmail.png": "/portfolio/static/media/gmail.cc1e7a6547eded5d1128.png",
     "static/media/cyber.png": "/portfolio/static/media/cyber.b9a7faaafd12c19a87bd.png",
-    "static/media/educator.svg": "/portfolio/static/media/educator.4ce0859b97f3ec1e974e6e3fe2be9727.svg",
     "static/media/html.png": "/portfolio/static/media/html.6e930594286d8afe4c79.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.461bbc74b27b86b14d97.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.b2ac71e89d13ae3f2b95.png",
     "static/media/marketing.svg": "/portfolio/static/media/marketing.0115a0a397d75c997ba39ac196277822.svg",
-    "static/media/webdeveloper.svg": "/portfolio/static/media/webdeveloper.51c9c5b1536435b6ee66ef2b3ea721e8.svg",
     "static/media/certificates.svg": "/portfolio/static/media/certificates.55311a7f95f786f8a9b96366d2bc44fe.svg",
     "static/media/banner-photo-bg.svg": "/portfolio/static/media/banner-photo-bg.c78405581de054b54341317c3229966d.svg",
     "static/media/bike.svg": "/portfolio/static/media/bike.70e75113d65b18d90f21622e919595db.svg",
     "index.html": "/portfolio/index.html",
-    "main.00a09b20.css.map": "/portfolio/static/css/main.00a09b20.css.map",
-    "main.7fbfa746.js.map": "/portfolio/static/js/main.7fbfa746.js.map"
+    "main.1fbf26d4.css.map": "/portfolio/static/css/main.1fbf26d4.css.map",
+    "main.f3ea28ac.js.map": "/portfolio/static/js/main.f3ea28ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.00a09b20.css",
-    "static/js/main.7fbfa746.js"
+    "static/css/main.1fbf26d4.css",
+    "static/js/main.f3ea28ac.js"
   ]
 }
