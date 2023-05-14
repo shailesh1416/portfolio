@@ -8,14 +8,13 @@ import Poem from './pages/poem/Poem';
 import Photo from './pages/photo/Photo';
 import Nopage from './pages/nopage/Nopage';
 import App from './App';
-import Nav from './components/nav/Nav';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
      <BrowserRouter>
         <Routes>
-            <Route path='/' element={<Nav/>}>
+            <Route path='/' element={<App/>}>
                 <Route index element={<Home/>}/>
                 <Route path='blogs' element={<Blog/>}/>
                 <Route path='poems' element={<Poem/>}/>
