@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience({company,role,responsibility,start,end,companyLink}) {
   return (
-    <div className='d-flex flex-column'>
+    <div className='d-flex flex-column p-2'>
       <div> 
         <h4 className='display-5 mb-3' style={{color:'#A483C3',fontWeight:'500'}}>{company}</h4>
         <div className='mb-3' style={{fontSize:'1.5rem'}}>

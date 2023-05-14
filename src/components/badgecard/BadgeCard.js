@@ -4,6 +4,8 @@ import netbasic from '../../images/networking-basics.png'
 import nidc from '../../images/ndic.png'
 import cyberbasics from '../../images/intro-cyber.png'
 
+import './BadgeCard.css'
+
 
 function BadgeCard() {
     const badges = [
@@ -14,22 +16,21 @@ function BadgeCard() {
     ]
 
     const badgelist = badges.map((badge)=>(
-        <div className='col-sm-5 d-flex p-2 rounded-2 m-2 text-white' style={{border:'1px solid black',backgroundColor:'#222'}}>
+        <div className='col-sm-5 d-flex p-2 rounded-2 m-2 text-white ' style={{border:'1px solid black',backgroundColor:'#222'}}>
             <div className='p-2'>
-                <img src={badge[3]} style={{width:'100px'}}/>
+                <img className='badge-img' src={badge[3]} />
             </div>
             <div className='d-flex flex-column mx-3 p-2' style={{textAlign:'left'}}>
-                <h4 style={{fontSize:'1.2rem',color:'#9966FF'}}>{badge[0]}</h4>
-                <span>Issued by : {badge[1]}</span>
-                <span>Date : {badge[2]}</span>
-                <a href={badge[4]} className='text-dark btn btn-light' style={{textDecoration:'none',width:'150px'}}>Verify Badge</a>
+                <h4 className='badge-heading'>{badge[0]}</h4>
+                <span className='badge-info'>Issued by : {badge[1]}</span>
+                <span className='badge-info'>Date : {badge[2]}</span>
+                <a href={badge[4]} className='text-dark btn btn-light verify-btn'>Verify Badge</a>
             </div>
 
         </div>
     ))
   return (
-    <div className='row p-5 d-flex justify-content-center'>
-
+    <div className='row p-2 d-flex justify-content-center badge-size'>
       {badgelist}
     </div>
   )

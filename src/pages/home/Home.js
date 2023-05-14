@@ -4,7 +4,7 @@ import Banner from '../../components/banner/Banner'
 import Connection from '../../components/connections/Connection'
 import ImageLeft from '../../components/imageleft/ImageLeft'
 import Skills from '../../components/skills/Skills'
-import wd from '../../images/webdeveloper.svg'
+import wd from '../../images/web developer.svg'
 import programmer from '../../images/programming.svg'
 
 // --skills
@@ -23,8 +23,8 @@ import cyber from '../../images/cyber.png'
 import network from '../../images/network.png'
 import endpoint from '../../images/endpoint.png'
 import cyber2 from '../../images/cyber.svg'
-import analyst from '../../images/analyst.jpg'
-import educator from '../../images/educator.svg'
+import analyst from '../../images/cyber security analyst.svg'
+import educator from '../../images/teacher.svg'
 import marketing from '../../images/marketing.svg'
 
 import whatsapp from './../../images/whatsapp.png'
@@ -107,6 +107,7 @@ function Home() {
       <Certificates />
       <h2 className='mt-3 display-1' style={{ color: '#9966FF' }}>Hobby</h2>
       <SimpleCard items={hobbies}/>
+      <a href="https://storyset.com/people">People illustrations by Storyset</a>
       <Footer copyright="Copyright &#169; 2023  Shailesh Yadav " />
 
     </div>
