@@ -1,0 +1,11 @@
+.blogImage{
+    max-width:600px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .blogImage {
+      width: 100%;
+    }
+  }
