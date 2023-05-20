@@ -4,11 +4,15 @@ import './Blog.css'
 import '../all.css'
 import BlogCard from '../../components/blogcard/BlogCard'
 import bg from './../../images/ocean1.jpg'
+import Modal from '../../components/modal/Modal'
 
 
 function Blog() {
   const [data, setData] = useState([])
   const [dupdata, setDupData] = useState([])
+  const [modal, setModal] = useState(false)
+  const [id, setId] = useState(null)
+  // const [blogId, setBlogId] = useState("")
 
   useEffect(() => {
     fetchData()
@@ -20,7 +24,7 @@ function Blog() {
       const response = await fetch(url)
       const data = await response.json()
       setData(data)
-      console.log(data)
+      // console.log(data)
       setDupData(data)
     } catch (error) {
       console.log(error)
@@ -28,15 +32,28 @@ function Blog() {
   }
 
   const onKeyChange = (e) => {
-    console.log(e.target.value)
+    // console.log(e.target.value)
     const newData = dupdata.filter((blog) => {
       return blog.title.toLowerCase().includes(e.target.value.toLowerCase())
     })
     setData(newData)
   }
 
+  const showModal = (id) => {
+    console.log("Show Modal")
+    setModal(true)
+    setId(id)
+    // setBlogId(id)
+  }
+  const hideModal = () => {
+    console.log("Test hide Modal")
+    setModal(false)
+    setId(null)
+
+  }
+
   return (
-    <div style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'cover', height: '100vh', overflow: 'auto' }}>
+    <div style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'cover', height: '90vh', overflow: 'auto' }}>
       <div className='d-flex flex-column align-items-center p-2'>
         <h1 className='mt-3 '>My Blogs</h1>
         <div>
@@ -46,9 +63,12 @@ function Blog() {
 
       <div className='d-flex flex-column align-items-center p-2'>
         {data.map((blog) => (
-          <BlogCard blog={blog} />
+          <BlogCard blog={blog} showModal={showModal} />
         ))}
       </div>
+      {modal &&
+        <Modal  hideModal={hideModal} blogId = {id} />
+      }
 
     </div>
   )
