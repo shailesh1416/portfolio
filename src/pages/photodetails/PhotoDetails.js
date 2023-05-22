@@ -34,7 +34,7 @@ function PhotoDetails() {
       <div class="d-flex flex-column justify-content-center p-3" style={{width:'100%'}}>
         <img src={`https://drive.google.com/uc?export=view&id=${data.url}`} alt='Nature' style={{width:'100%'}} className='photoStyle'/>
       <div dangerouslySetInnerHTML={{ __html: data.description }} className='content mt-4' style={{ fontSize: '1.2rem' }} />
-      <ShareBtn />
+      {/* <ShareBtn /> */}
       </div>
       </div>    
   
