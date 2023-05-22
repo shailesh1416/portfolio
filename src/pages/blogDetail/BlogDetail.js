@@ -31,9 +31,9 @@ function BlogDetail() {
         <h3>{data.place}</h3>
       <div class="modal-footer d-flex flex-column justify-content-center p-3" >
         <img src={`https://drive.google.com/uc?export=view&id=${data.url}`} alt='Blog'className='blogImage'/>
-      <div dangerouslySetInnerHTML={{ __html: data.description }} className='content mt-4' style={{ fontSize: '1.2rem' }} />
+      <div dangerouslySetInnerHTML={{ __html: data.blog }} className='content mt-4' style={{ fontSize: '1.2rem' }} />
       </div>
-      {/* <ShareBtn/> */}
+      <ShareBtn />
       </div>    
   
     </div>
