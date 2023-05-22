@@ -10,7 +10,9 @@ img{
 .blog-layout{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
 }
 
 .blog-layout .head{
@@ -19,6 +21,25 @@ img{
     justify-content: center;
 }
 
+.read-buttons{
+    display: flex;
+    justify-content: end;
+}
+
+.btn-link{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(237, 237, 237);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 @media only screen and (max-width: 600px) {
     .blog-layout {
       width: 100%;
@@ -27,5 +48,9 @@ img{
 
     .blog-image{
         display: none;
+    }
+    .read-buttons{
+        display: flex;
+        justify-content: center;
     }
   }

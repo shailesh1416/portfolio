@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './Blog.css'
 import '../all.css'
@@ -53,7 +54,7 @@ function Blog() {
   }
 
   return (
-    <div style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'cover', height: '90vh', overflow: 'auto' }}>
+    <div className='d-flex flex-column align-items-center' style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'cover', height: '90vh', overflow: 'auto' }}>
       <div className='d-flex flex-column align-items-center p-2'>
         <h1 className='mt-3 '>My Blogs</h1>
         <div>
@@ -61,8 +62,9 @@ function Blog() {
         </div>
       </div>
 
-      <div className='d-flex flex-column align-items-center p-2'>
+      <div className='d-flex flex-column align-items-center p-2' style={{width:'800px'}}>
         {data.map((blog) => (
+          
           <BlogCard blog={blog} showModal={showModal} />
         ))}
       </div>

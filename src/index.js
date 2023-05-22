@@ -8,6 +8,8 @@ import Poem from './pages/poem/Poem';
 import Photo from './pages/photo/Photo';
 import Nopage from './pages/nopage/Nopage';
 import App from './App';
+import BlogDetail from './pages/blogDetail/BlogDetail';
+import PhotoDetails from './pages/photodetails/PhotoDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
             <Route path='/' element={<App/>}>
                 <Route path='home' element={<Home/>}/>
                 <Route path='blogs' element={<Blog/>}/>
+                <Route path='blogs/:id' element={<BlogDetail/>}/>
+                <Route path='photos/:id' element={<PhotoDetails/>}/>
                 <Route path='poems' element={<Poem/>}/>
                 <Route path='photos' element={<Photo/>}/>
                 <Route path="*" element={<Nopage />} />
